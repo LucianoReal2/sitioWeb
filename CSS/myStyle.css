@@ -1,14 +1,43 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 70px;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgba(255, 255, 255, 0.726);
+}
+.logo a{
+    display: flex;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 40px;
+    color: green;}
 .foto_index{
     text-align: center;
 }
 .ver_colección{
     text-align: center;
 }
-.buzos_inicio a{
-    text-decoration: none;
-    font-style: oblique;
-    font-size: 40px;
-    color: green;
+.contacto{
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.span_contacto{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 40px;
 }
 .contenido{
     max-width: 2000px;
