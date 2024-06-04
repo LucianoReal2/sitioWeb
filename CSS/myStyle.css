@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
 }
 header{
     display: flex;
@@ -16,7 +17,7 @@ nav a{
     padding-right: 10px;
 }
 nav a:hover{
-    color: rgba(255, 255, 255, 0.726);
+    color: red
 }
 .logo a{
     display: flex;
@@ -27,8 +28,20 @@ nav a:hover{
 .foto_index{
     text-align: center;
 }
-.ver_colección{
-    text-align: center;
+.boton {
+text-align: center;
+color: black;
+font-family: sans-serif;
+}
+.boton a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.boton :hover{
+color: red;
 }
 .contacto{
     font-family: sans-serif;
