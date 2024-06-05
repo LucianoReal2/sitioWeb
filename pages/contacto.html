@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../CSS/myStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -17,9 +18,22 @@
         </nav>
     </header>
 
-    <h2 class="contacto">Contacto</h2>
-    <span class="span_contacto">Llamanos: +54 3816920431</span>
-    <br>
-    <span class="span_contacto">Escribinos: buzzos@gmail.com</span>
+    <div class="container_form">
+        <div class="info_form">
+            <h2>Contáctanos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi est voluptates quae ipsam eius, in quasi odio porro aut vel beatae aperiam.</p>
+            <a href="#"><i class="fa fa-phone"></i> 381-692-0431</a>
+            <a href="#"><i class="fa fa-envelope"></i> buzzos@gmail.com</a>
+            <a href="#"><i class="fa fa-map-marked"></i> Tucumán, Argentina</a>
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+            <input type="email" name="email" placeholder="Tu Email" class="campo">
+            <input type="whatsapp" name="número" placeholder="Tu Whatsapp" class="campo">
+            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn_enviar">
+        </form>
+    </div>
+
 </body>
 </html>
